@@ -1,0 +1,7 @@
+com.notification.man.test.app-jetified-core-1.5.0-0 C:\Users\user\.gradle\caches\8.9\transforms\743591df304e5e2267f72bc9b5210244\transformed\jetified-core-1.5.0\res
+com.notification.man.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\user\.gradle\caches\8.9\transforms\d2d856100286916bd9dc78e121d5bed2\transformed\jetified-annotation-experimental-1.3.0\res
+com.notification.man.test.app-androidTest-2 C:\Users\user\Downloads\nehal-mc\nehal-mc\EXP-10 Notification\app\build\generated\res\resValues\androidTest\debug
+com.notification.man.test.app-androidTest-3 C:\Users\user\Downloads\nehal-mc\nehal-mc\EXP-10 Notification\app\build\generated\res\rs\androidTest\debug
+com.notification.man.test.app-mergeDebugAndroidTestResources-4 C:\Users\user\Downloads\nehal-mc\nehal-mc\EXP-10 Notification\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.notification.man.test.app-mergeDebugAndroidTestResources-5 C:\Users\user\Downloads\nehal-mc\nehal-mc\EXP-10 Notification\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.notification.man.test.app-merged_res-6 C:\Users\user\Downloads\nehal-mc\nehal-mc\EXP-10 Notification\app\build\intermediates\merged_res\debugAndroidTest

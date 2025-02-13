@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="your name"
+            android:inputType="text"
+            android:textColor="@android:color/black" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="your message !"
+            android:inputType="text"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_time_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="time interval (seconds)"
+            android:inputType="number"
+            android:textColor="@android:color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_fire"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="24dp"
+            android:text="click here for notification !!"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/cream" />
+
+        <!-- New Horizontal Layout for Side-by-Side Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_cool_down_all"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/pink"
+                android:text="cool down all"
+                android:textAllCaps="false"
+                android:textColor="@color/cream" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_cool_down_last"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cool down last"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/pink"
+                android:textColor="@color/cream"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
